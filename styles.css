@@ -32,3 +32,41 @@ form button {
   background: whitesmoke;
   border-radius: 2rem;
 }
+
+form button {
+  color: #6A9C89;
+  background: whitesmoke;
+  cursor: pointer;
+  transition: all 0.3 ease;
+  margin-left: 0.5rem;
+}
+
+form button:hover{
+color: whitesmoke;
+background: #6A9C89;
+}
+
+.fa-plus-circle {
+margin-top: 0.3rem;
+margin-left: -8px;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+min-width: 30%;
+list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  padding-left: 0.5rem;
+  background: whitesmoke;
+  color: black;
+  font-size: 1.5rem;
+}
+
