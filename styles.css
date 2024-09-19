@@ -144,6 +144,16 @@ padding: 1rem;
   content: "\25BC";
   position: absolute;
   background: #6A9C89;
+  top: 0;
+  right: 0;
+  padding: 1.2rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.select::hover::after {
+background: whitesmoke;
+color: #6A9C89;
 }
 
 
