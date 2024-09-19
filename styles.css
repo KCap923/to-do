@@ -1,3 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #16423C;
+  color: #E9EFEC;
+  /* font-family: "Poppins", sans-serif; */
+  min-height: 100vh;
+}
+
+header {
+font-size: 1.5rem;
+}
+
+header,
+form {
+min-height: 20vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  border: none;
+  background: whitesmoke;
+  border-radius: 2rem;
 }
