@@ -8,3 +8,19 @@ todoButton.addEventListener("Click", deleteCheck);
 todoList.addEventListener("click", deleteCheck);
 filterOption.addEventListener("change", filterTodo);
 
+function addTodo(event) {
+event.preventDefault();
+const todoDiv = document.createElement("div");
+todoDiv.classList.add("todo");
+const newTodo = document.createElement("li");
+newTodo.innerText = todoInput.value;
+newTodo.classList.add("todo-item");
+//Add to local storage
+saveLocalTodos(todoInput.value);
+
+const completedButton = document.createElement("button");
+
+
+
+
+}
