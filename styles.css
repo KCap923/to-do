@@ -152,7 +152,7 @@ padding: 1rem;
 }
 
 .select::hover::after {
-background: whitesmoke;
+background: white;
 color: #6A9C89;
 }
 
